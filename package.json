@@ -1,0 +1,24 @@
+{
+  "name": "scavengerhunt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "expo": "~53.0.15",
+    "expo-barcode-scanner": "^13.0.1",
+    "expo-camera": "~16.1.10",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
